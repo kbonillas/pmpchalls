@@ -268,7 +268,7 @@ i{
 /* For tablet devices at 768px */
 @media only screen and (min-width: 768px) {
     .grid-container{
-        grid-template-rows: 60px 250px 400px 250px 700px 100px;
+        grid-template-rows: 60px 250px 400px 250px 600px 100px;
     }
 
     .nav li{
@@ -361,6 +361,9 @@ i{
 /* *********************** */
 /* For desktop screens at 1024px */
 @media only screen and (min-width: 1024px) {
+    .grid-container{
+        grid-template-rows: 60px 250px 400px 250px 750px 100px;
+    }
 
     .features{
         margin: 0 50px;
